@@ -1,7 +1,6 @@
-#!/bin/python3
-import random as r
+import random
 
-rand = r.randint(1, 20)
+rand = random.randint(1, 20)
 attempts = 1
 money = 500
 
@@ -20,6 +19,7 @@ if confirmation == "Yes":
         print("You now have £" + str(money) + "\n")
         continueGame = input("Do you want to continue playing the game? ")
         if continueGame == "Yes":
+          rand = random.randint(1, 20)
           attempts = 1
         else:
           print("See you later!")
@@ -35,6 +35,7 @@ if confirmation == "Yes":
       print("Sorry you used up all your attempts, the right number was " + str(rand))
       continueGame2 = input("Do you want to continue playing the game? ")
       if continueGame == "Yes":
+        rand = random.randint(1, 20)
         attempts = 1
       else:
         print("See you later!")
