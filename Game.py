@@ -34,7 +34,7 @@ if confirmation == "Yes":
       money -= 500
       print("Sorry you used up all your attempts, the right number was " + str(rand))
       continueGame2 = input("Do you want to continue playing the game? ")
-      if continueGame == "Yes":
+      if continueGame2 == "Yes":
         rand = random.randint(1, 20)
         attempts = 1
       else:
