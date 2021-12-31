@@ -1,1 +1,1 @@
-A random number guessing game created in Python and C++ as a side project. The C++ isn't exactly the same as the Python as the "rand" (in Python) is renamed to "randNum" (in C++) because
+A random number guessing game created in Python and C++ as a side project. The C++ isn't exactly the same as the Python as the "rand" (in Python) is renamed to "randNum" (in C++) because if I did do "int rand = rand() % 20 + 1;" then it would throw an error because the compiler would use the variable rand as the random number generator instead of the function rand.
